@@ -29,7 +29,7 @@ GET /books – Get all books
 GET /books/:id – Get book details, including: Title, Author, Genre
 
 
-✍Review Endpoints
+Review Endpoints
 POST /books/:id/reviews – Add a review (Only one review per user per book)
 
 PUT /reviews/:id – Edit your review (Authenticated user only)
